@@ -7,14 +7,13 @@ var S = " Concatenated" + " String"; //We created the variable S.
 window.alert(S); //This causes the above variable to show on a tiny pop up window and shows the text in the ().
 
 var A = "This is a string"; //Variable created.
-
 var A = A.fontcolor("blue"); //Fontcolor change for string.
 document.write(" I made a string.", //Writes down text held within parantheses.
     ' Don\'t get me wrong, please understand.\ I am doing my best. '); //Concatenated string.
 
 
 var B = "I am"; //Created a variable B with string attached.
-var Y = "Bored."; //Created a variable Y with string attached.
-var Y = str.fontcolor("green"); //Changes color of variables string.
+var Y = " Bored."; //Created a variable Y with string attached.
+var Y = Y.fontcolor("green"); //Changes color of variables string.
 document.write(B+Y); //Executed the concatenation of the variables because of the + operator.
 
