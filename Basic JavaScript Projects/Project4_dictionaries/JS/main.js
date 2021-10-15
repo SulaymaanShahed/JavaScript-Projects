@@ -20,5 +20,5 @@ function my_Animals() {
         Age:30,
         Sound:"Creaking!",
     };
-    document.getElementById("Animals").innerHTML = avian_Animal.Sound;
+    document.getElementById("Animals").innerHTML = "Bird Sound: " + avian_Animal.Sound + " Land Creature Sound: " + land_Animal.Sound + " Sea Creature Sound: " + ocean_Animal.Sound;
 }
