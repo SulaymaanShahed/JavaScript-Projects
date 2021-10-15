@@ -20,5 +20,5 @@ function my_Animals() {
         Age:30,
         Sound:"Creaking!",
     };
-    document.getElementById("Animals").innerHTML = Animal.Sound;
+    document.getElementById("Animals").innerHTML = avian_Animal.Sound;
 }
