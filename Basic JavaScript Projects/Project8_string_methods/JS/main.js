@@ -1,8 +1,8 @@
 function full_Sentence() { //Created function full_Sentence().
     var part_1 = "I have"; //Created variable with string ("I have").
-    var part_2 = "made this"; //Created variable with string ("made this")
-    var part_3 = "into a complete "; //Created variable with string ("into a complete")
-    var part_4 = "sentence."; //Created variable with string ("sentence.")
+    var part_2 = " made this"; //Created variable with string ("made this")
+    var part_3 = " into a complete "; //Created variable with string ("into a complete")
+    var part_4 = " sentence."; //Created variable with string ("sentence.")
     var whole_sentence = part_1.concat(part_2, part_3, part_4); //Created variable whole_sentence to concat parts_1-4.
     document.getElementById("Concatenate").innerHTML = whole_sentence; //Connects Id "Concatenate" to HTML page and takes the whole_sentence variable and displays it in the HTML as well. 
 }
@@ -22,4 +22,3 @@ function precision_Method() { //Created function precision_Method(). Formats a n
     var X = 12938.3012987376112; //Created variable X and attached string to it.
     document.getElementById("Precision").innerHTML = X.toPrecision(10); //Connect to HTML with Id "Precision" and combined variable X to .toPrecision(10).
 }
-
